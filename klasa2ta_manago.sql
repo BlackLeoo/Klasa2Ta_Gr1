@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Czas generowania: 04 Mar 2022, 12:51
+-- Czas generowania: 11 Mar 2022, 11:50
 -- Wersja serwera: 10.4.22-MariaDB-cll-lve
 -- Wersja PHP: 7.4.28
 
@@ -56,7 +56,9 @@ INSERT INTO `klasa2ta_manago` (`ID`, `Imie`, `Login`, `Haslo`, `E_mail`, `Wiek`,
 (11, 'Norbert', 'Ivane', '666', 'dachowski.norbert.ta@edu.zstjaslo.pl', 16, '2021-11-26 13:45:10', 'FC Krzoki'),
 (12, 'Norbert', 'ZZZ', '456', 'zieba.norbert.ta@edu.zstjaslo.pl', 16, '2021-11-26 13:45:10', 'FC Po Nalewce'),
 (13, 'Jakub', 'Gomulka', '666', 'gomulka.jakub.ta@edu.zstjaslo.pl', 16, '2021-11-26 13:45:10', 'FC rzygulec'),
-(14, 'Tymoteusz', 'ave2t4', '131', 'koziol.tymoteusz@edu.zstjaslo.pl', 17, '2022-03-04 12:19:10', 'KKS 1910 Sandecja Nowy Sacz');
+(14, 'Tymoteusz', 'ave2t4', '131', 'koziol.tymoteusz@edu.zstjaslo.pl', 17, '2022-03-04 12:19:10', 'KKS 1910 Sandecja Nowy Sacz'),
+(15, 'Maciek', 'Lula', '656', 'lula.maciej.ta@edu.zstjaslo.pl', 16, '2021-11-26 13:45:10', 'FC Koxy'),
+(16, 'Szymon', 'Antas', '257', 'antas.szymon.ta@edu.zstjaslo.pl', 17, '2021-11-26 13:45:10', 'FC Jol men');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -76,7 +78,7 @@ ALTER TABLE `klasa2ta_manago`
 -- AUTO_INCREMENT dla tabeli `klasa2ta_manago`
 --
 ALTER TABLE `klasa2ta_manago`
-  MODIFY `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
